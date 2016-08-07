@@ -111,4 +111,5 @@ $(o)/sdgvm.o: $(s)/sdgvm.$(e) $(s)/real_precision.$(e) $(s)/dims.$(e) $(s)/syste
 	$(FC) -o $(o)/sdgvm.o -c $(s)/sdgvm.$(e) -J$(m)
 
 clean:
-	rm -f $b/sdgvm.exe $b/sdgvm $m/*.mod $o/*.o $s/*.obj
+	rm -f $b/sdgvm.exe $b/sdgvm $m/*.mod $o/*.o
+#	del $b\sdgvm.exe $b\sdgvm $m\*.mod $o\*.o $o\*.obj
