@@ -79,8 +79,8 @@ logical :: initise,initiseo,speedc,crand,xspeedc,withcloudcover,l_clim,l_lu, &
 !----------------------------------------------------------------------!
 ! Get input filename from the command line.                            !
 !----------------------------------------------------------------------!
-!CALL GET_INPUT_FILENAME(buff1)
-buff1='../../SDGVM/output/f03_2.dat'
+CALL GET_INPUT_FILENAME(buff1)
+!buff1='../../SDGVM/output/f03_2.dat'
 
 !----------------------------------------------------------------------!
 ! Read internal parameters from "param.dat" file, and io               !
