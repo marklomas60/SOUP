@@ -1,5 +1,5 @@
 UNIX
-../../data/clim/global/cru3/30min/monthly
+../../data/clim/global/cru3/1deg/monthly
 ../../data/stats/global/era40/30min
 ../../data/soil/global/islscp2/1deg/0-150
 ../../data/land_use/global/glc2000/30min
