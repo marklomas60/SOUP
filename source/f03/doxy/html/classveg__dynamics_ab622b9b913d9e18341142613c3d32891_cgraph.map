@@ -1,0 +1,6 @@
+<map id="veg_dynamics::initialise_new_cohorts" name="veg_dynamics::initialise_new_cohorts">
+<area shape="rect" id="node2" href="$classstate__methods.html#a9bed73cee8c7e915f4a3f1f208b639f5" title="state_methods::initialise\l_state_cohort" alt="" coords="216,5,379,46"/>
+<area shape="rect" id="node3" href="$classstate__methods.html#a9ea6e925bd5dc7d7ea774130b5ff7ade" title="state_methods::reset\l_soil_res" alt="" coords="225,70,370,111"/>
+<area shape="rect" id="node4" href="$classstate__methods.html#a823a6ae1d7007a5a23b0a17bd116f9d9" title="state_methods::set\l_new_soil_res" alt="" coords="230,135,365,177"/>
+<area shape="rect" id="node5" href="$classstate__methods.html#aba8b583fc33e9fb2092d83b272a08c4a" title="state_methods::sum\l_carbon" alt="" coords="227,201,368,242"/>
+</map>

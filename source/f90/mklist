@@ -1,0 +1,1 @@
+grep -E 'SUBROUTINE|FUNCTION' *.f | sed -e '/:\*/d' -e 's/(.*//' >tmp

@@ -1,0 +1,15 @@
+<map id="sdgvm1::read_landuse" name="sdgvm1::read_landuse">
+<area shape="rect" id="node2" href="$classdata.html#af2b4dd00be1f3285aa47e7b9fa2fd189" title="data::ex_clu" alt="" coords="208,194,301,220"/>
+<area shape="rect" id="node13" href="$classdata.html#a3da1e41057c0b17e59b1fa375553ce9b" title="Extract land use. " alt="" coords="211,92,298,119"/>
+<area shape="rect" id="node14" href="$classfunc.html#ab69662cd7477f81ba280f7bc2f7f5959" title="func::ntags" alt="" coords="211,295,298,322"/>
+<area shape="rect" id="node3" href="$classdata.html#a7f237cdc24b1a6135d9cf3165167e634" title="Performs bilinear interpolation between four points. " alt="" coords="357,244,443,271"/>
+<area shape="rect" id="node4" href="$classfunc.html#ae7fee9abde92c30ad3a8deb9a99049d6" title="func::blank" alt="" coords="646,67,733,94"/>
+<area shape="rect" id="node5" href="$classfunc.html#adfcb8051e80888658d4a1f0159ea1ee8" title="func::in2st" alt="" coords="359,194,441,220"/>
+<area shape="rect" id="node6" href="$classfunc.html#abb89e326d07cd48feb030cfea87514a8" title="func::n_fields" alt="" coords="350,143,450,170"/>
+<area shape="rect" id="node9" href="$classfunc.html#abacfb3d89c23cff8011641eda4245691" title="func::st2arr" alt="" coords="356,42,444,68"/>
+<area shape="rect" id="node11" href="$classfunc.html#aab7b0dfaa34943487f4602409e9522ed" title="func::stcmp" alt="" coords="355,346,445,372"/>
+<area shape="rect" id="node12" href="$classfunc.html#a041dd46fa24dab7c43457afc1c113cdc" title="func::stripb" alt="" coords="503,270,590,296"/>
+<area shape="rect" id="node7" href="$classfunc.html#a8875308fc3686bc3ab7f5f66e1160d14" title="func::blanks" alt="" coords="643,168,736,195"/>
+<area shape="rect" id="node8" href="$classfunc.html#a189c040b27ed84b4866807a6e4adc66d" title="func::stripbs" alt="" coords="499,143,594,170"/>
+<area shape="rect" id="node10" href="$classfunc.html#aa27c80c2c05030125823ac87065ee58b" title="func::stripbn" alt="" coords="499,42,594,68"/>
+</map>

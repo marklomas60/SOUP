@@ -1,0 +1,11 @@
+<map id="state_methods::sum_carbon" name="state_methods::sum_carbon">
+<area shape="rect" id="node2" href="$classstate__methods.html#a491fb1bc6f0eac09402ab8c57887f516" title="state_methods::combine\l_cohorts" alt="" coords="195,5,360,46"/>
+<area shape="rect" id="node5" href="$classveg__dynamics.html#aafdee2e09bc2d856258f1597189b70da" title="veg_dynamics::cover" alt="" coords="413,89,560,116"/>
+<area shape="rect" id="node6" href="$classveg__dynamics.html#ac633e70158fe19e2f2455e375b971371" title="veg_dynamics::growth" alt="" coords="410,165,563,192"/>
+<area shape="rect" id="node7" href="$classveg__dynamics.html#ab622b9b913d9e18341142613c3d32891" title="veg_dynamics::initialise\l_new_cohorts" alt="" coords="197,223,358,265"/>
+<area shape="rect" id="node8" href="$classsoil__methods.html#a3e90eedaab6d4e0bf71871e455e702fc" title="soil_methods::soil\l_dynamics" alt="" coords="214,289,341,330"/>
+<area shape="rect" id="node10" href="$classveg__dynamics.html#a9d9ea1b03434168e2f76ee4655b3b994" title="veg_dynamics::thin" alt="" coords="210,172,345,199"/>
+<area shape="rect" id="node3" href="$classstate__methods.html#a192523ee1825a5e587a45eff8977c563" title="state_methods::restrict\l_cohort_numbers" alt="" coords="409,11,565,53"/>
+<area shape="rect" id="node4" href="$sdgvm_8f90.html#a8622b607d8be793fa44e2984139d5bf5" title="sdgvm" alt="" coords="613,165,675,192"/>
+<area shape="rect" id="node9" href="$classsoil__methods.html#afcb1b6c906db00d6f3fbe636b5e8bbd1" title="soil_methods::soil\l_dynamics2" alt="" coords="423,278,550,319"/>
+</map>

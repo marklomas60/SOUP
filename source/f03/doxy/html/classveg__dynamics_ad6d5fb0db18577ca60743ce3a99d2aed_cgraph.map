@@ -1,0 +1,7 @@
+<map id="veg_dynamics::newgrowth" name="veg_dynamics::newgrowth">
+<area shape="rect" id="node2" href="$classstate__methods.html#a5e5149595c01a76762db5ad69690498a" title="state_methods::accumulate\l_burnt_soil_res" alt="" coords="233,5,415,46"/>
+<area shape="rect" id="node3" href="$classstate__methods.html#a9bcb1707267bb0c440ce0b83c8f54645" title="state_methods::accumulate\l_dist_soil_res" alt="" coords="233,70,415,111"/>
+<area shape="rect" id="node5" href="$classstate__methods.html#aceacb5079eab83cab2b32564348de362" title="state_methods::compress\l_state" alt="" coords="237,135,411,177"/>
+<area shape="rect" id="node4" href="$classstate__methods.html#a9bed73cee8c7e915f4a3f1f208b639f5" title="state_methods::initialise\l_state_cohort" alt="" coords="464,70,627,111"/>
+<area shape="rect" id="node6" href="$classstate__methods.html#a2e3ca2ad58fde7d0ba486c6a649f0b59" title="state_methods::make\l_co2ftmap" alt="" coords="471,135,619,177"/>
+</map>

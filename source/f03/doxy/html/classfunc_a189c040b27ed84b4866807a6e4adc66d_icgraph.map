@@ -1,0 +1,12 @@
+<map id="func::stripbs" name="func::stripbs">
+<area shape="rect" id="node2" href="$classfunc.html#abb89e326d07cd48feb030cfea87514a8" title="func::n_fields" alt="" coords="179,157,279,184"/>
+<area shape="rect" id="node8" href="$classread__input.html#a86e54f29e2e1aa4343f3572ab9a3988a" title="read_input::read_input_file" alt="" coords="582,208,757,235"/>
+<area shape="rect" id="node9" href="$classsdgvm1.html#a1125d6d86eb71802fb405ace36781134" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="369,208,522,235"/>
+<area shape="rect" id="node10" href="$classsdgvm1.html#ae5d4f4ab9e00fed57158fa92e5e31fed" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="358,259,533,285"/>
+<area shape="rect" id="node11" href="$classread__input.html#a3379bdabf17a544cd834b51ec5add96e" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="150,360,309,387"/>
+<area shape="rect" id="node3" href="$classdata.html#af2b4dd00be1f3285aa47e7b9fa2fd189" title="data::ex_clu" alt="" coords="399,5,492,32"/>
+<area shape="rect" id="node6" href="$classdata.html#a3da1e41057c0b17e59b1fa375553ce9b" title="Extract land use. " alt="" coords="402,56,489,83"/>
+<area shape="rect" id="node7" href="$classsdgvm1.html#a5794cbe697f3d3375f2b1d4cb3638163" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="360,157,531,184"/>
+<area shape="rect" id="node4" href="$classsdgvm1.html#a0c0701a499094e9dba543bc859dede00" title="sdgvm1::read_landuse" alt="" coords="593,56,746,83"/>
+<area shape="rect" id="node5" href="$sdgvm_8f90.html#a8622b607d8be793fa44e2984139d5bf5" title="sdgvm" alt="" coords="805,208,867,235"/>
+</map>

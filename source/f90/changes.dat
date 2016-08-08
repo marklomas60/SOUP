@@ -1,0 +1,96 @@
+
+Changes in the param.dat file. Mainly to:
+ Increase runoff, by reducing
+the amount of increased capacity upto a fraction of saturation.
+ Increase biomass, by reducing litter (stlit in 'growth.for').
+increasing stem npp and reducing root litter decay (rl 0.8->0.5 in MKLIT in 'growth.for').
+ Decrease productivity by reducing VMAX 17->11.
+ Decrease the assimilation temperature differential by Q10 value in NPPCLAC.for 
+3->2.3.
+
+
+
+
+
+
+
+
+
+
+**********************************************
+
+Changed (E13.6 to (E14.6 in SDGVM0.f. This stops numbers running
+into each other when -ve's occur. Negatives shouldn't occur, but
+they can with spurious input data.
+
+
+Stopped growing leaves when very low soil moisture
+      &(dsbb.GT.bb2bbmax)) THEN
+becomes
+      &((dsbb.GT.bb2bbmax).AND.(soil2g.GT.half+0.2d0*(wtfc-half)))) THEN
+in phenology 1 & 2
+
+Commented out the ppm death thingy 1700ish. This caused a problem when
+restarting with the input files every year in the imogen runs.
+These values will naturaly get set to zero in COVER.
+Resetting them prematurely like this causes a problem.
+This only happens when restarting at a site where death has occured.
+
+          DO age=1,ftmor(ft)
+*            IF (ppm(age,ft).LT.1.0e-16) then
+*              cov(age,ft)=0.0
+*              bio(age,1,ft)=0.0
+*              bio(age,2,ft)=0.0
+*              hgt(age,ft)=0.0
+*              wdt(age,ft)=0.0
+*            ENDIF
+            ftcov(ft) = ftcov(ft) + cov(age,ft)
+          ENDDO
+
+Added function check_ft_grow to func.f. This function checks to see
+whether the temperature bb limit will be reached. If not then the
+new ground is set to BARE ground. The function is called in sdgvm0.f.
+This prevents trying to grow vegetation where none can ever exist
+in cold regions. 
+
+Put the files country.dat and country_id.dat in the data directory.
+This saves carting the files around with every version of sdgvm.
+Also the added problem that they are only read at run time and so
+have to exist in the executable directory is solved.
+The directory where the country files and the land sea mask is given
+by the line that was previously used for the land sea mask.
+
+The above problem with misc_params.dat has also been solved by using
+default screen output options when the file doesn't exist.
+
+So now the only file required with the executable is param.dat.
+After discusion with Marc, I've decided that its best to keep things
+like this. Its safe anyway with the version check that was introduced
+recently.
+
+Put a fix in subroutine dolymonth (doly.f) to stop negative soil respiration
+occuring. This could occur in a ft vegetation restart as the carbon 
+needed to seed the vegetation is taken from the surface litter.
+This can leed to the surface litter pool being negative.
+If this pool becomes negative, I know set it to zero and take the
+deficit proportionately from all the carbon pools.
+
+Fixed snapshots. There was a problem with the filenames.
+Included 1190ish
+      st4=in2st(snpshts(i))
+      CALL STRIPB(st4)
+
+Altered the output file 'biot.dat' to include nppstore.
+Altered the output file 'soilc.dat' to include surface and root litter
+which has not yet been put into the soil litter pools.
+The two changes above ensure that 
+nbp.dat(n+1) = biot(n+1)+scn(n+1)-(biot(n+1)+scn(n+1))
+Just as it should be.
+
+
+
+
+
+
+
+

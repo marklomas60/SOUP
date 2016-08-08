@@ -1,0 +1,5 @@
+<map id="weather_generator::read_wg_file" name="weather_generator::read_wg_file">
+<area shape="rect" id="node2" href="$classdata.html#a7f237cdc24b1a6135d9cf3165167e634" title="Performs bilinear interpolation between four points. " alt="" coords="195,5,280,32"/>
+<area shape="rect" id="node3" href="$classfunc.html#ae7fee9abde92c30ad3a8deb9a99049d6" title="func::blank" alt="" coords="194,56,281,83"/>
+<area shape="rect" id="node4" href="$classfunc.html#aab7b0dfaa34943487f4602409e9522ed" title="func::stcmp" alt="" coords="192,107,283,133"/>
+</map>

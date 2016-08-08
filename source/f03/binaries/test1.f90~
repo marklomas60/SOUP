@@ -1,0 +1,37 @@
+program test1
+
+implicit none
+integer :: x(10,5),i,j,y(10,5),z
+character(len=10) :: str
+
+do i=1,5
+  do j=1,10
+    x(j,i) = (i-1)*10 + j
+  enddo
+enddo
+
+open(11,file='temp.dat',form='unformatted',access='stream')
+!write(11) x(:,1)
+!write(11) x(:,2)
+!write(11) x(:,3)
+!write(11) x(:,4)
+!write(11) x(:,5)
+write(11) x
+close(11)
+print*,x
+
+open(11,file='temp.dat',access='stream')
+read(11) y
+close(11)
+print*,y
+
+
+end program test1
+
+
+subroutine tt()
+
+print*,'hellox'
+
+end subroutine tt
+

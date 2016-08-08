@@ -1,0 +1,41 @@
+#!/bin/bash
+##############################################################
+
+nprocesses=50
+dir=/home/mrl/Desktop/SDGVM/output/cru3
+inputfile=$dir/spin.dat
+outputdir=$dir/spin
+sites=../../data/sites/global_1deg.dat
+
+##############################################################
+
+tmpdir=$dir/tempoutput
+
+count=`wc -l < $sites`
+if [ $nprocesses -gt $count ]
+then
+  nprocesses=$count
+fi
+
+mkdir -p $outputdir
+rm -f $outputdir/*
+
+for i in $(seq 2 $nprocesses)
+do
+  sed 1d $tmpdir/r$i/site_info.dat > $tmpdir/r$i/temp
+  cp $tmpdir/r$i/temp $tmpdir/r$i/site_info.dat
+  rm $tmpdir/r$i/temp
+done
+
+files=`ls $tmpdir/r1`
+
+for i in $(seq 1 $nprocesses)
+do
+  for file in $files
+  do
+    cat $tmpdir/r$i/$file >> $outputdir/$file
+  done
+done
+
+
+

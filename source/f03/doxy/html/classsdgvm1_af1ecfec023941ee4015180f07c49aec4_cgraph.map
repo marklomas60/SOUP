@@ -1,0 +1,21 @@
+<map id="sdgvm1::read_climate" name="sdgvm1::read_climate">
+<area shape="rect" id="node2" href="$classdata.html#abf26fe19696d29326bc14d87a9240c02" title="Extract climate data from the climate database for the nearest site. " alt="" coords="246,5,346,32"/>
+<area shape="rect" id="node4" href="$classdata.html#a4ab02b64f0e2688d7b39fb4e6dc347aa" title="Extract climate data from the climate database for the nearest site. " alt="" coords="232,81,360,108"/>
+<area shape="rect" id="node6" href="$classweather__generator.html#a410f1e1863e4d722f9e5eef5ed9a2146" title="weather_generator::\lex_clim_weather_generator" alt="" coords="205,305,387,346"/>
+<area shape="rect" id="node3" href="$classfunc.html#ae7fee9abde92c30ad3a8deb9a99049d6" title="func::blank" alt="" coords="734,93,821,120"/>
+<area shape="rect" id="node5" href="$classfunc.html#ac36931ffa366eff3f57fb99c2ea5f53f" title="func::no_days" alt="" coords="480,93,584,120"/>
+<area shape="rect" id="node7" href="$classdata.html#a7f237cdc24b1a6135d9cf3165167e634" title="Performs bilinear interpolation between four points. " alt="" coords="735,257,820,284"/>
+<area shape="rect" id="node8" href="$classfunc.html#a6a09ab24936c884315750766cc2165f5" title="func::round" alt="" coords="489,312,575,339"/>
+<area shape="rect" id="node9" href="$classweather__generator.html#ac2fe3d210d360c182d423a26ae09a3c5" title="weather_generator::\lread_wg_file" alt="" coords="463,195,601,237"/>
+<area shape="rect" id="node11" href="$classweather__generator.html#a80e534087e3cfb24ab09651ae89c2364" title="weather_generator::\lrain_day_sub_fully_normalised" alt="" coords="677,355,877,397"/>
+<area shape="rect" id="node14" href="$classmetdos.html#a88251dea7d8d8fb4a3078f17d1de9320" title="metdos::temp_day_mean2_fn" alt="" coords="435,413,629,440"/>
+<area shape="rect" id="node19" href="$classweather__generator.html#ab5a6f31d3b72951d67d4256fafdf5886" title="weather_generator::\lfloatingmean" alt="" coords="463,530,601,571"/>
+<area shape="rect" id="node20" href="$classweather__generator.html#a45dc327f44b2931fdfdf60ac127b9e8b" title="weather_generator::\lhum_day_mean2_fn" alt="" coords="463,465,601,506"/>
+<area shape="rect" id="node10" href="$classfunc.html#aab7b0dfaa34943487f4602409e9522ed" title="func::stcmp" alt="" coords="732,203,823,229"/>
+<area shape="rect" id="node12" href="$classmetdos.html#a9c9368239168c43489905705d07e8c9e" title="metdos::rndf" alt="" coords="1129,392,1223,419"/>
+<area shape="rect" id="node13" href="$classmetdos.html#a7df5c52aaefda332112ab6149be333fd" title="metdos::gammadist_fn" alt="" coords="925,367,1080,393"/>
+<area shape="rect" id="node15" href="$classmetdos.html#a10ebcc8f0ae6b33c4238df8f572873a5" title="metdos::norm_from_rand_fn" alt="" coords="685,468,870,495"/>
+<area shape="rect" id="node16" href="$classmetdos.html#abb62171cad81acf5e7ba3575b678f371" title="metdos::normdist2_fn" alt="" coords="929,417,1077,444"/>
+<area shape="rect" id="node17" href="$classmetdos.html#a8287554b4bc02618da65ff56ad832913" title="metdos::normdist_fn" alt="" coords="932,468,1073,495"/>
+<area shape="rect" id="node18" href="$classmetdos.html#a4166775d13b46c78ecce65cdbca9b29d" title="metdos::transnorm_fn" alt="" coords="928,519,1077,545"/>
+</map>

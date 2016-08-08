@@ -1,0 +1,13 @@
+<map id="doly::dolyday" name="doly::dolyday">
+<area shape="rect" id="node2" href="$classveg__dynamics.html#a53d02bd78f5ccda4bce82068219f6372" title="veg_dynamics::c3c4" alt="" coords="154,104,297,131"/>
+<area shape="rect" id="node3" href="$classproductivity__methods.html#a217140109845d23092c5bb9cf1b529ce" title="productivity_methods\l::nppcalc" alt="" coords="152,155,299,197"/>
+<area shape="rect" id="node12" href="$classphenology__methods.html#ac51152cd1815f500396acf618ebcfbce" title="Update suma by adding daily increase and removing via mortality. " alt="" coords="152,221,299,262"/>
+<area shape="rect" id="node4" href="$classsunshade.html#abcfbef92e0fc94a475289b315e8e3fc9" title="sunshade::goudriaanslaw2" alt="" coords="347,5,523,32"/>
+<area shape="rect" id="node5" href="$classproductivity__methods.html#a454e0d650a3fb8482d796435431714c0" title="productivity_methods\l::assvmax3" alt="" coords="361,57,508,98"/>
+<area shape="rect" id="node7" href="$classproductivity__methods.html#a5f27ae455bda6dc9e56eb8dd24d8e199" title="productivity_methods\l::assj3" alt="" coords="361,122,508,163"/>
+<area shape="rect" id="node9" href="$classproductivity__methods.html#add090052aeb9464ac85d5640ba28b900" title="productivity_methods\l::limitationprocess" alt="" coords="361,187,508,229"/>
+<area shape="rect" id="node10" href="$classproductivity__methods.html#a032fe06f6583b2ed26f7dd7c636aa506" title="productivity_methods\l::assj4" alt="" coords="361,253,508,294"/>
+<area shape="rect" id="node11" href="$classproductivity__methods.html#a9e1755fcd54a82699be271e8c4351dac" title="productivity_methods\l::assc4" alt="" coords="361,318,508,359"/>
+<area shape="rect" id="node6" href="$classproductivity__methods.html#a422f6ec0e56a4d31338585413dbefd00" title="productivity_methods\l::assvmax" alt="" coords="571,57,717,98"/>
+<area shape="rect" id="node8" href="$classproductivity__methods.html#a38ce1d36175eb6fb854550b510c52984" title="productivity_methods\l::assj" alt="" coords="571,187,717,229"/>
+</map>

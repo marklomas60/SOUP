@@ -1,0 +1,23 @@
+dos2unix sdgvm0.f sdgvm0.f
+dos2unix sdgvm1.f sdgvm1.f
+dos2unix data.f data.f
+dos2unix doly.f doly.f
+dos2unix func.f func.f
+dos2unix growth.f growth.f
+dos2unix hydrology.f hydrology.f
+dos2unix light.f light.f
+dos2unix nppcalc.f nppcalc.f
+dos2unix phenology.f phenology.f
+dos2unix soil.f soil.f
+dos2unix metdos.f metdos.f
+dos2unix param.inc param.inc
+dos2unix param.dat param.dat
+dos2unix weathergenerator.f weathergenerator.f
+dos2unix dosrec.f dosrec.f
+dos2unix misc_params.dat misc_params.dat
+dos2unix array_dims.inc array_dims.inc
+dos2unix changes.dat changes.dat
+dos2unix sunshade.f sunshade.f
+dos2unix sumall.f sumall.f
+dos2unix dosrec.f dosrec.f
+

@@ -1,0 +1,8 @@
+<map id="sdgvm1::land_site_check" name="sdgvm1::land_site_check">
+<area shape="rect" id="node2" href="$classfunc.html#ae7fee9abde92c30ad3a8deb9a99049d6" title="func::blank" alt="" coords="526,5,613,32"/>
+<area shape="rect" id="node3" href="$classdata.html#ad08f017a99ed74a1adf8a756de3a3568" title="Determine if the site is a land site. " alt="" coords="237,31,313,57"/>
+<area shape="rect" id="node5" href="$classfunc.html#abb89e326d07cd48feb030cfea87514a8" title="func::n_fields" alt="" coords="225,107,325,133"/>
+<area shape="rect" id="node4" href="$classdata.html#acb3b416f83e176ebebf74fec81c7a544" title="data::base72i" alt="" coords="374,56,474,83"/>
+<area shape="rect" id="node6" href="$classfunc.html#a8875308fc3686bc3ab7f5f66e1160d14" title="func::blanks" alt="" coords="523,132,616,159"/>
+<area shape="rect" id="node7" href="$classfunc.html#a189c040b27ed84b4866807a6e4adc66d" title="func::stripbs" alt="" coords="377,107,471,133"/>
+</map>

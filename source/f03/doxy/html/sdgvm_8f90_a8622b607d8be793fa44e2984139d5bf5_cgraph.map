@@ -1,0 +1,51 @@
+<map id="sdgvm" name="sdgvm">
+<area shape="rect" id="node2" href="$classphenology__methods.html#a3febbb694107764cb8481db7eceef8e6" title="Allocate GPP between storage, stems, roots and leaves. " alt="" coords="129,167,276,209"/>
+<area shape="rect" id="node9" href="$classfunc.html#ae7fee9abde92c30ad3a8deb9a99049d6" title="func::blank" alt="" coords="385,417,471,444"/>
+<area shape="rect" id="node10" href="$classsdgvm1.html#adabf25a66541fcee2e46a0f940525adf" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="141,689,264,716"/>
+<area shape="rect" id="node11" href="$classsdgvm1.html#ab7081d7e7bf6ce9802f7b6ec9156d245" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="143,284,262,311"/>
+<area shape="rect" id="node12" href="$classveg__dynamics.html#aafdee2e09bc2d856258f1597189b70da" title="veg_dynamics::cover" alt="" coords="129,857,276,884"/>
+<area shape="rect" id="node16" href="$classlight__methods.html#a460c621fdcfe4e59cf83e62e12cedb82" title="light_methods::dayl" alt="" coords="135,908,270,935"/>
+<area shape="rect" id="node17" href="$classdoly.html#a6454fc37a33192403a36d2b81253f12e" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="153,959,252,985"/>
+<area shape="rect" id="node18" href="$classdoly.html#af574d471380a0d4a607fc85d66788af5" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="123,1009,283,1036"/>
+<area shape="rect" id="node19" href="$classveg__dynamics.html#ac633e70158fe19e2f2455e375b971371" title="veg_dynamics::growth" alt="" coords="126,740,279,767"/>
+<area shape="rect" id="node20" href="$classhydrology__methods.html#aeaacb631333feaa2bb6c3d2dcced94fe" title="Inclusion of century water model (which is a &#39;bucket model) using doly evaporation and interception c..." alt="" coords="131,1061,274,1102"/>
+<area shape="rect" id="node21" href="$classveg__dynamics.html#ab622b9b913d9e18341142613c3d32891" title="veg_dynamics::initialise\l_new_cohorts" alt="" coords="122,791,283,833"/>
+<area shape="rect" id="node22" href="$classstate__methods.html#a112c7e23b756969ce64a479edb34de7e" title="state_methods::initialise\l_state" alt="" coords="121,1126,284,1167"/>
+<area shape="rect" id="node23" href="$classfunc.html#a893982528fd0844c2ff1e45761e71053" title="func::last_blank" alt="" coords="145,1192,260,1219"/>
+<area shape="rect" id="node24" href="$classsdgvm1.html#ac634bd4a668c5eb2c4406769260e8451" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="135,1243,271,1269"/>
+<area shape="rect" id="node25" href="$classsdgvm1.html#a75972a02235e2b548dde5b4712fb7013" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="147,1293,258,1320"/>
+<area shape="rect" id="node26" href="$classfunc.html#a41521195b84ed0d720d6ff5be9775d19" title="func::no_day" alt="" coords="154,1395,251,1421"/>
+<area shape="rect" id="node27" href="$classfunc.html#ac36931ffa366eff3f57fb99c2ea5f53f" title="func::no_days" alt="" coords="376,1395,480,1421"/>
+<area shape="rect" id="node28" href="$classopen__files.html#a8bf15f19d557fbbc51d164d8187bd815" title="Open default output files. " alt="" coords="121,335,284,361"/>
+<area shape="rect" id="node29" href="$classopen__files.html#a5fc1730bcafe33fed12c1f988f73a749" title="Open optional output files. " alt="" coords="118,385,287,412"/>
+<area shape="rect" id="node30" href="$classopen__files.html#a2df32779e2b040f7e887ba69ae150f43" title="Open input and/or output files for state vector. " alt="" coords="126,436,279,463"/>
+<area shape="rect" id="node31" href="$classsdgvm1.html#a5143e3a550b0469059d05d7dae4c67eb" title="Compute outputs from daily_out. " alt="" coords="143,1496,262,1523"/>
+<area shape="rect" id="node32" href="$classlight__methods.html#afdae8e8405ab30124af7a23ab9260137" title="light_methods::pfd" alt="" coords="138,1547,267,1573"/>
+<area shape="rect" id="node33" href="$classphenology__methods.html#a147419bfb677634e26bf5de75edc2714" title="phenology_methods::\lphenology" alt="" coords="129,1598,276,1639"/>
+<area shape="rect" id="node34" href="$classsdgvm1.html#af1ecfec023941ee4015180f07c49aec4" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="127,1664,278,1691"/>
+<area shape="rect" id="node35" href="$classread__input.html#a86e54f29e2e1aa4343f3572ab9a3988a" title="read_input::read_input_file" alt="" coords="115,537,290,564"/>
+<area shape="rect" id="node36" href="$classfunc.html#a041dd46fa24dab7c43457afc1c113cdc" title="func::stripb" alt="" coords="385,588,471,615"/>
+<area shape="rect" id="node37" href="$classsdgvm1.html#a0c0701a499094e9dba543bc859dede00" title="sdgvm1::read_landuse" alt="" coords="126,1715,279,1741"/>
+<area shape="rect" id="node38" href="$classread__input.html#a3379bdabf17a544cd834b51ec5add96e" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="123,588,282,615"/>
+<area shape="rect" id="node39" href="$classsdgvm1.html#a4908cab5fd6e2c47b761f889b6c92fd8" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="139,1765,267,1792"/>
+<area shape="rect" id="node40" href="$classdata.html#a8d2320dc9cdfde1a03f966d3440b5b71" title="data::readco2" alt="" coords="152,487,253,513"/>
+<area shape="rect" id="node41" href="$classstate__methods.html#a192523ee1825a5e587a45eff8977c563" title="state_methods::restrict\l_cohort_numbers" alt="" coords="125,1817,281,1858"/>
+<area shape="rect" id="node42" href="$classsdgvm1.html#a6843c236f640f87da92d5494f6cfd002" title="Set &#39;tmp&#39; &#39;hum&#39; &#39;prc&#39; and &#39;cld&#39;. " alt="" coords="131,1445,274,1472"/>
+<area shape="rect" id="node43" href="$classsdgvm1.html#a29fce91717eb92b363e757395bc2fba5" title="Set CO2 value &#39;ca&#39;. " alt="" coords="141,1883,264,1909"/>
+<area shape="rect" id="node44" href="$classsunshade.html#adde671cb42ba02152a2d1a91050feef6" title="sunshade::set_goud\l_params" alt="" coords="133,1934,272,1975"/>
+<area shape="rect" id="node45" href="$classsdgvm1.html#a825cc7035d6df77825fbb951e39d5529" title="Set lanuse by allocating the cover of new ground. " alt="" coords="129,2000,276,2027"/>
+<area shape="rect" id="node46" href="$classstate__methods.html#a2ef8b12a937be81b3faf00f0a31ec1d4" title="state_methods::set\l_misc_values" alt="" coords="135,2051,270,2093"/>
+<area shape="rect" id="node47" href="$classsoil__methods.html#afcb1b6c906db00d6f3fbe636b5e8bbd1" title="soil_methods::soil\l_dynamics2" alt="" coords="139,2117,266,2158"/>
+<area shape="rect" id="node48" href="$classsdgvm1.html#aa26d28bc7fb7cef66ea70dc04553f873" title="Read internal parameters from &quot;param.dat&quot; file, and io parameters from &quot;misc_params.dat&quot;. " alt="" coords="131,2183,274,2209"/>
+<area shape="rect" id="node49" href="$classopen__files.html#a029f3f0e2b952720d574895806ff837e" title="Write lat &amp; lon for output files. " alt="" coords="121,2233,284,2260"/>
+<area shape="rect" id="node50" href="$classsoil__methods.html#a1e5305f272585b143e8692640daeaf1a" title="soil_methods::wsparam" alt="" coords="123,2284,283,2311"/>
+<area shape="rect" id="node3" href="$classphenology__methods.html#aa3eb6f301a26c6c5d0eab241353812f3" title="phenology_methods::\llai_add" alt="" coords="355,5,501,46"/>
+<area shape="rect" id="node4" href="$classphenology__methods.html#aadbe2e287c76e82d95cc70a8e3b26509" title="(Currently not implemented). Apply leaf motality. " alt="" coords="355,70,501,111"/>
+<area shape="rect" id="node5" href="$classphenology__methods.html#ab1cc4033324c6911c80083dbce460a6e" title="Update roots by adding daily increase and removing via mortality. " alt="" coords="355,135,501,177"/>
+<area shape="rect" id="node6" href="$classphenology__methods.html#a0aa16dccf147ec5dbacf87676b157281" title="Apply root respiration to the active roots, and sum the resulting roots. " alt="" coords="355,201,501,242"/>
+<area shape="rect" id="node7" href="$classphenology__methods.html#ac122d851548faee70b68d29abebe3597" title="Update stems by adding daily increase and removing via mortality. " alt="" coords="355,266,501,307"/>
+<area shape="rect" id="node8" href="$classphenology__methods.html#a4b552a52da64862884127c828c2651b7" title="Apply stem respiration to the active stems, and sum the resulting stems. " alt="" coords="355,331,501,373"/>
+<area shape="rect" id="node13" href="$classstate__methods.html#aba8b583fc33e9fb2092d83b272a08c4a" title="state_methods::sum\l_carbon" alt="" coords="357,791,499,833"/>
+<area shape="rect" id="node14" href="$classveg__dynamics.html#aa05817ae7ca7dacc9a258b9d1f0bf505" title="veg_dynamics::fire" alt="" coords="362,857,494,884"/>
+<area shape="rect" id="node15" href="$classveg__dynamics.html#ad6d5fb0db18577ca60743ce3a99d2aed" title="veg_dynamics::newgrowth" alt="" coords="339,908,517,935"/>
+</map>

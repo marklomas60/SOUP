@@ -1,0 +1,8 @@
+<map id="phenology_methods::allocation" name="phenology_methods::allocation">
+<area shape="rect" id="node2" href="$classphenology__methods.html#aa3eb6f301a26c6c5d0eab241353812f3" title="phenology_methods::\llai_add" alt="" coords="200,5,347,46"/>
+<area shape="rect" id="node3" href="$classphenology__methods.html#aadbe2e287c76e82d95cc70a8e3b26509" title="(Currently not implemented). Apply leaf motality. " alt="" coords="200,70,347,111"/>
+<area shape="rect" id="node4" href="$classphenology__methods.html#ab1cc4033324c6911c80083dbce460a6e" title="Update roots by adding daily increase and removing via mortality. " alt="" coords="200,135,347,177"/>
+<area shape="rect" id="node5" href="$classphenology__methods.html#a0aa16dccf147ec5dbacf87676b157281" title="Apply root respiration to the active roots, and sum the resulting roots. " alt="" coords="200,201,347,242"/>
+<area shape="rect" id="node6" href="$classphenology__methods.html#ac122d851548faee70b68d29abebe3597" title="Update stems by adding daily increase and removing via mortality. " alt="" coords="200,266,347,307"/>
+<area shape="rect" id="node7" href="$classphenology__methods.html#a4b552a52da64862884127c828c2651b7" title="Apply stem respiration to the active stems, and sum the resulting stems. " alt="" coords="200,331,347,373"/>
+</map>

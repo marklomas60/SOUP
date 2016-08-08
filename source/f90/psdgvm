@@ -1,0 +1,95 @@
+#!/bin/bash
+##############################################################
+# Need to set line 11 and the sites line of input file 
+# to "ARGUMENT" 
+##############################################################
+
+nprocesses=50
+dir=/home/mrl/Desktop/SDGVM/output/cru3
+inputfile=$dir/spin2.dat
+outputdir=$dir/spin2
+sites=../../data/sites/global_1deg.dat
+
+##############################################################
+
+tmpdir=$dir/tempoutput
+rm -fr $tmpdir
+mkdir -p $tmpdir
+
+count=`wc -l < $sites`
+if [ $nprocesses -gt $count ]
+then
+  nprocesses=$count
+fi
+chunk=$[($count-1)/$nprocesses+1]
+echo sites=$count procesess=$nprocesses chunk=$chunk 
+
+for i in $(seq 1 $nprocesses)
+do
+  outd=$tmpdir/r$i
+  batchfile=$tmpdir/batch-$i
+  mkdir $outd
+  let start=($i-1)*$chunk+1
+  let end=$i*$chunk
+  if [ $end -gt $count ]
+  then
+    end=$count
+  fi
+#  echo $start $end
+  echo "sdgvm0 $inputfile $outd $sites $start $end"> $batchfile
+done
+
+prunning=`ps r | grep sdgvm0 | wc -l`
+
+for i in $(seq 1 $nprocesses)
+do
+  prunning=`ps r | grep sdgvm0 | wc -l`
+  while [ $prunning -ge 4 ]
+  do
+    sleep 30
+    prunning=`ps r | grep sdgvm0 | wc -l`
+  done
+  echo submitting job $i
+  source $tmpdir/batch-$i 1> $tmpdir/output-$i 2> $tmpdir/error-$i &
+  sleep 30
+done
+
+
+#
+# Wait for final jobs to finish
+#
+sleep 30
+prunning=`ps r | grep sdgvm0 | wc -l`
+while [ $prunning -gt 0 ]
+do
+  sleep 30
+  prunning=`ps r | grep sdgvm0 | wc -l`
+done
+
+
+#
+# Put the files together
+#
+mkdir -p $outputdir
+rm -f $outputdir/*
+
+for i in $(seq 2 $nprocesses)
+do
+  sed 1d $tmpdir/r$i/site_info.dat > $tmpdir/r$i/temp
+  cp $tmpdir/r$i/temp $tmpdir/r$i/site_info.dat
+  rm $tmpdir/r$i/temp
+done
+
+files=`ls $tmpdir/r1`
+
+for i in $(seq 1 $nprocesses)
+do
+  for file in $files
+  do
+    cat $tmpdir/r$i/$file >> $outputdir/$file
+  done
+done
+
+
+
+

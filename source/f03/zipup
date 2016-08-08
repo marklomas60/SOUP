@@ -1,0 +1,3 @@
+tar -zcvf fo3.tar.gz src inc docs doxy utils Makefile
+
+

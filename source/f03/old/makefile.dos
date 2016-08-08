@@ -1,0 +1,83 @@
+.SUFFIXES:
+FLAGS=/dreal /debug
+GEN=system_state.f90 pft_prameters.f90 site_parameters.f90 dims.f90
+
+OBJFILES=dims.obj misc_values.obj system_state.obj pft_parameters.obj site_parameters.obj \
+sdgvm0.obj herbivory_dummy.obj sdgvm1.obj state_methods.obj bfire.obj open_files.obj \
+read_input.obj data.obj veg_dynamics.obj hydrology.obj phenology.obj func.obj doly.obj \
+soil.obj nppcalc.obj light.obj sunshade.obj weather_generator.obj metdos.obj
+
+sdgvm0.exe: $(OBJFILES)
+	slink $(OBJFILES) -file:sdgvm0.exe
+
+dims.obj: dims.f90
+	ftn95 dims $(FLAGS)
+
+misc_values.obj: misc_values.f90 $(GEN)
+	ftn95 misc_values $(FLAGS)
+
+system_state.obj: system_state.f90 $(GEN)
+	ftn95 system_state $(FLAGS)
+
+pft_parameters.obj: pft_parameters.f90 $(GEN)
+	ftn95 pft_parameters $(FLAGS)
+
+site_parameters.obj: site_parameters.f90 $(GEN)
+	ftn95 site_parameters $(FLAGS)
+
+sdgvm0.obj: sdgvm0.f90 $(GEN)
+	ftn95 sdgvm0 $(FLAGS)
+
+herbivory_dummy.obj: herbivory_dummy.f90 $(GEN)
+	ftn95 herbivory_dummy $(FLAGS)
+
+sdgvm1.obj: sdgvm1.f90 $(GEN)
+	ftn95 sdgvm1 $(FLAGS)
+
+state_methods.obj: state_methods.f90 $(GEN)
+	ftn95 state_methods $(FLAGS)
+
+bfire.obj: bfire.f90 $(GEN)
+	ftn95 bfire $(FLAGS)
+
+open_files.obj: open_files.f90 $(GEN)
+	ftn95 open_files $(FLAGS)
+
+read_input.obj: read_input.f90 $(GEN)
+	ftn95 read_input $(FLAGS)
+
+data.obj: data.f90 $(GEN)
+	ftn95 data $(FLAGS)
+
+veg_dynamics.obj: veg_dynamics.f90 $(GEN)
+	ftn95 veg_dynamics $(FLAGS)
+
+hydrology.obj: hydrology.f90 $(GEN)
+	ftn95 hydrology $(FLAGS)
+
+phenology.obj: phenology.f90 $(GEN)
+	ftn95 phenology $(FLAGS)
+
+func.obj: func.f90 $(GEN)
+	ftn95 func $(FLAGS)
+
+doly.obj: doly.f90 $(GEN)
+	ftn95 doly $(FLAGS)
+
+soil.obj: soil.f90 $(GEN)
+	ftn95 soil $(FLAGS)
+
+nppcalc.obj: nppcalc.f90 $(GEN)
+	ftn95 nppcalc $(FLAGS)
+
+light.obj: light.f90 $(GEN)
+	ftn95 light $(FLAGS)
+
+sunshade.obj: sunshade.f90 $(GEN)
+	ftn95 sunshade $(FLAGS)
+
+weather_generator.obj: weather_generator.f90 $(GEN)
+	ftn95 weather_generator $(FLAGS)
+
+metdos.obj: metdos.f90 $(GEN)
+	ftn95 metdos $(FLAGS)

@@ -1,0 +1,7 @@
+EnableContentAssist=true
+EnableDeclView=true
+EnableHoverTip=true
+EnableVPG=true
+FortranIncludePaths=/fo3\n
+FortranModulePaths=/fo3\n
+eclipse.preferences.version=1

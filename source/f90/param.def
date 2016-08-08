@@ -1,0 +1,22 @@
+version
+1(real) leaf npp multiplier
+2(real) stem npp daynpp multiplier: minimum daily stem npp
+1(real) root npp multiplier
+
+2(real) nppstore fraction available for lai [0-1]: nppstore memory [0-1]
+1(real) soil moisture budburst condition [0-1]
+
+1(real) stem resperation multiplier
+
+1(real) soil decomposition multiplier
+
+4(real) nitrogen uptake p1*exp(p2*soilc)*(soil2g/wtfc)**p3*min(1,soiln*p4)
+4(real) leaf nitrogen = upt*p1: dresp = nleaf*p2: vmax = nleaf*p3: kg moisture dependency multiplier
+3(real) vmax temperature response parameters for cubic 1+a(t-25)+b(t-25)**2+c(t-25)**3
+3(real) jmax temperature response parameters for cubic 1+a(t-25)+b(t-25)**2+c(t-25)**3
+
+5(real) pet multiplier: bare ground evaporation multiplier: transpiration multiplier: roff rate dynamic parmeter above field capacity for bottom layer: soil moisture capacity storage, 0 = field capacity 1 = saturated water content, above this instantaeneous runoff.
+
+1(real) fire probability multiplier
+
+depth of the city surface (mm)

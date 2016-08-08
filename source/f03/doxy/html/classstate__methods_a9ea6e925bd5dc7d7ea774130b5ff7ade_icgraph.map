@@ -1,0 +1,5 @@
+<map id="state_methods::reset_soil_res" name="state_methods::reset_soil_res">
+<area shape="rect" id="node2" href="$classveg__dynamics.html#ab622b9b913d9e18341142613c3d32891" title="veg_dynamics::initialise\l_new_cohorts" alt="" coords="201,5,362,46"/>
+<area shape="rect" id="node4" href="$classstate__methods.html#a112c7e23b756969ce64a479edb34de7e" title="state_methods::initialise\l_state" alt="" coords="200,70,363,111"/>
+<area shape="rect" id="node3" href="$sdgvm_8f90.html#a8622b607d8be793fa44e2984139d5bf5" title="sdgvm" alt="" coords="411,45,472,72"/>
+</map>
