@@ -1,5 +1,10 @@
 To run the cohort version of SDGVM from this directory in linux using gfortran.
 
+$ cd data
+$ gunzip land_mask.bin
+$ gunzip land_mask.bin
+$ cd ..
+
 $ cd source/f03
 $ make clean
 $ make
