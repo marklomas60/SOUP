@@ -11,7 +11,10 @@ $ make
 $ ./bin/sdgvm.exe ../../output/f03.dat
 
 This will hopefuly run 9 sites and put the output in the
-directory output/f03
+directory output/f03.
+
+A link to the documentation is given in. 
+'source/f03/docs/sdgvm.html'
 
 NOTE
 Although the source files have extensions of 'f90', the code uses some fortran 2003 features, so a fortran compiler supporting 2003 is needed.
