@@ -1,0 +1,7 @@
+LONLAT
+upper left lat and long (centre of pixel)
+89.75 -179.50
+lat and lon resolution
+1.0 1.0
+number of pixels (north to south, east to west)
+180 360

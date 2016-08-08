@@ -1,0 +1,76 @@
+CONTINUOUS FTS
+centre of northernmost westernmost pixel (latitude longitude)
+-22.0 16.0
+latitude and longitude resolution
+0.5 0.5
+number of pixels (north to south, west to east)
+27 35
+years of landuse
+2000
+classes
+1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+
+;;;
+
+1  Forest and Woodland                                            100 Dc_Bl
+2  Forest                                                         100 Dc_Bl
+3  Thicket & bushland (etc)                                       100 Shrub
+4  Shrubland and low Fynbos                                       100 Shrub
+5  Herbland                                                       100 C3
+6  Improved grassland        | one of these should be seven       100 C4
+6  Unimproved grassland      |                                    100 C4
+8  Forest plantations                                             100 Dc_Bl
+10 Wetlands                                                       100 C4
+11 Barren rock                                                    100 Bare
+12 Dongas & sheet erosion scars                                   100 Bare
+13 Degraded: forest and woodland                                  100 Dc_Bl
+14 Degraded: thicket & bushland (etc)                             100 Shrub
+15 Degraded: unimproved grassland                                 50 C3 50 C4
+16 Degraded: shrubland and low Fynbos                             100 Shrub
+17 Degraded: herbland                                             100 C3
+18 Cultivated: permanent - commercial irrigated                   100 C3
+19 Cultivated: permanent - commercial dryland                     100 C3
+20 Cultivated: permanent - commercial sugarcane                   100 C3
+21 Cultivated: temporary - commercial irrigated                   100 C3
+22 Cultivated: temporary - commercial dryland                     100 C3
+23 Cultivated: temporary - semi-commercial/subsistence dryland    100 C3
+24 Urban / built-up land: residential                             100 Bare
+25 Urban / built-up land: residential (small holdings: woodland)  100 Bare
+26 Urban / built-up land: residential (small holdings: bushland)  100 Bare
+27 Urban / built-up land: residential (small holdings: shrubland) 100 Bare
+28 Urban / built-up land: residential (small holdings: grassland) 100 Bare
+29 Urban / built-up land: commercial                              100 Bare
+30 Urban / built-up land: industrial / transport                  100 Bare
+31 Mines & quarries                                               100 Bare
+
+
+1  100 Dc_Bl
+2  100 Dc_Bl
+3  100 C3
+4  100 C3
+5  100 C3
+6  100 C4
+7  100 C4
+8  100 Dc_Bl
+10 100 C4
+11 100 Bare
+12 100 Dc_Bl
+13 100 Dc_Bl
+14 100 C3
+15 100 C4
+16 100 C4
+17 100 C4
+18 100 C4
+19 100 C4
+20 100 C4
+21 100 C4
+22 100 C4
+23 100 C4
+24 100 Bare
+25 100 Bare
+26 100 Bare
+27 100 Bare
+28 100 Bare
+29 100 Bare
+30 100 Bare
+31 100 Bare

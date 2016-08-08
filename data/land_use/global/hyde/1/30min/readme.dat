@@ -1,0 +1,56 @@
+CONTINUOUS FTS
+north west corner of northernmost westernmost pixel (latitude longitude)
+89.75 -179.75
+latitude and longitude resolution
+0.5 0.5
+number of pixels (north to south, west to east)
+360 720
+years of landuse
+1700 1750 1800 1850 1900 1950 1990
+
+
+The data set consists of a landuse file named 'landuse.dat'.Records in 
+each file have fields containing latitude and longitude, at the centre
+of the pixel, and data values, the number of which will correspond to 
+the number of fields in 'years of landuse' above. Records must run 
+consecutively from west to east starting at the northern most latitude,
+for any given area made up of a rectangle of pixels defined above. The 
+format of each record must be '(f7.3,f9.3,NYEARSi3)'. Location is inferred 
+from position in the file not the latitude and longitude values, these
+are redundent but values must be present.
+
+The landuse classification scheme is given below.
+
+ 1 "Cultivated land"
+ 2 "Pasture/land used for grazing"
+ 5 "Ice"
+ 6 "Tundra"
+ 7 "Wooded tundra"
+ 8 "Boreal forest"
+ 9 "Cool conifer forest"
+10 "Temperate mixed forest"
+11 "Temperate deciduous forest"
+12 "Warm mixed forest"
+13 "Grassland/Steppe"
+14 "Hot desert"
+15 "Scrubland"
+16 "Savanna"
+17 "Tropical woodland"
+18 "Tropical forest"
+
+1   100 C3
+2   100 C3
+5   100 C3
+6   100 C3
+7    50 Dc_Nl  50 Ev_Nl
+8    10 Dc_Bl  90 Ev_Nl
+9    60 Ev_Nl  40 Dc_Bl
+10   50 Ev_Nl  50 Dc_Bl
+11   90 Dc_Bl  10 Ev_Nl
+12   50 Ev_Bl  50 Dc_Bl
+13  100 C3
+14  100 C3
+15  100 C3
+16   50 C3     50 Dc_Bl
+17   70 Ev_Bl  30 Dc_Bl
+18   100 Ev_Bl

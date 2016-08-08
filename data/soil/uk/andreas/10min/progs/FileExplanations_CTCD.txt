@@ -1,0 +1,98 @@
+York soil carbon/texture data:
+Andreas Heinemeyer
+last updated (possible changes to files!) 21/01/2004
+>>>21.01.04:	10 min grid mistakes corrected.
+
+Please read this information BEFORE using any of the data!
+
+Data have been commisioned by DEFRA.
+CTCD got access to the soil CARBON data for the entire UK from June 2003 onwards for about 5 years.
+CTCD has access to the soil TEXTURE data for England and Wales (incl. Northern Ireland) ONLY!
+So far, Scottish data still need to be excluded from any analysis.
+However, if you find any Scottish soil texture data points which have been missed out please delete them immediately
+and notify Andreas Heinemeyer ah126@york.ac.uk.
+
+I have written a SAS programme caluclating weighted means for individual 1km grid cell values.
+Furthermore, i have incorporated those data into GIS (ArcView3.x). This is available on request.
+I have also access to a calculation for 10min grid overlay calculation for SDGVM compatibility.
+
+
+The database behind the presented .txt files was as following:
+
+(i)
+GB_landuse file:
+
+EAST,NORTH,ARABLE,GARDEN,NATURAL,OTHER,PASTURE,SEA,TREES,URBAN,WATER,NON-CORINE
+
+I have excluded values for "other, sea, urban, water and non-corine" 
+and have combined "Garden and Pasture" and left "Arable and Natural and Trees" as following:
+
+	ARAB	=ARABLE;
+	GRASS	=GARDEN+PASTURE;
+	WOOD	=TREES;
+	SEMI	=NATURAL;
+
+DROP command:	OTHER SEA URBAN WATER NONCORINE ;
+
+(ii)
+GB_parameter:
+
+SERIES, AR30C, AR100C, PG30C, PG100C, SE30C, SE100C, WO30C, WO100C,
+(ie Arable, Permanent Grassland, Seminatural, Woodland)
+(for texture this further included: %clay30, %silt30, %sand30, Bulkdensity30, %clay100, %silt100, %sand100, Bulkdensity100)
+(for 100cm texture data I calcualted a weighted mean of the two values ie soil depth!)
+(if only 30cm data given then this was assumed to be true for 100cm as well.)
+
+This file contains the parameter for each soil series as carbon (kg m^2) for both 30cm and 30-100cm horizons
+for the 4 landuse types. The sum of the two horizons thus equals 100cm horizon depth.
+Missing values (lots!) as 999. However, whenever there was at least one parameter given,
+I have substituted the missing value with the mean of the known ones.
+I have used these values in a weighted means analaysis. This analaysis enabled to calculate
+one carbon value for each 1km grid cell taking into account different area coverage of individual landuse. 
+
+(iii)
+GB_series file:
+
+EAST,NORTH,SERIES1,SERIES1_PC,SERIES2,SERIES2_PC,SERIES3,SERIES3_PC,SERIES4,SERIES4_PC,SERIES5,SERIES5_PC,OTHERPC
+
+This file on a UK 1km grid reference contains up to 5 soil series numbers with the individual percentage values.
+I have used these values in a weighted means analaysis. This analaysis enabled to calculate one carbon value for each
+1km grid cell taking into account
+different area coverage of individual area coverage for soil series.
+
+Data structure:
+
+All files as tab limited files with 999 as missing values.
+
+
+1. CTCDall_carbsoil10mina.txt
+
+This is the SDGVM compatible 10min grid (lat long). Soil carbon and texture data (% Clay, Sand silt and bulk density values)
+are given for either 30cm or 100cm horizon calulations. 
+All grid values have been calcualated as mean (avg) values for each grid cell (approx. 100 1km rgid values).
+
+
+The DATA:
+Colums:
+Lat	Lon	Carb30_Avg	Carb1m_Avg	Clay30_Avg	Sand30_Avg	Silt30_Avg	Bulkd30_Avg	Clay1m_Avg	Sand1m_Avg	Silt1m_Avg	Bulkd1m_Avg
+
+
+2. E&Wcarbsoil 1km.txt
+
+This is the 1km UK easting (x) northing (y) grid for GB carbon and soil texture (see above) vlaues at 1km resolution
+(still excluding NI).
+Values have been given as either 30cm or 100cm profile depth according to the DEFRA choosen horizons, compatible with
+the Roth C model.
+
+Columns:
+x	y	Carb30	Carb1m	Clay30	Sand30	Silt30	Bulkd30	Clay1m	Sand1m	Silt1m	Bulkd1m
+
+
+3. UKcarb30_100.txt
+
+THis is the 1km UK easting northing grid for GB carbon vlaues at 1km resolution (still excluding NI).
+Values have been given as either 30cm or 100cm profile depth according to the DEFRA choosen horizons,
+compatible with the Roth C model.
+
+Columns:
+x y carb30 carb100

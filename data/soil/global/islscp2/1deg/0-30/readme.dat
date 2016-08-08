@@ -1,0 +1,19 @@
+upper left lat and long (centre of pixel)
+89.5 -179.5
+latitude and longitude resolution
+1.0 1.0
+number of pixels (north to south, west to east)
+180 360
+
+The data set consists of soil texture, depth, and bulk density.
+Records in each file have ten fields corresponding to
+latitude, longitude, sand %, silt %, bulk density (g/cm-3), organic C %,
+wilting point 0-1, field capacity 0-1, saturated water content 0-1 
+and soil depth (cm).
+Records must run from west to east starting at the northern most
+latitude, for any given area made up of a rectangle of pixels defined
+above. The format of each record must be '(f7.3,f9.3,8f10.4)'
+Note that location is inferred from position in the file not the 
+latitude and longitude values, these are redundent but values must 
+be present.
+

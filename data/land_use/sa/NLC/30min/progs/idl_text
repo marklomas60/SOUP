@@ -1,0 +1,6 @@
+openr,1,'/sceos2_data2/SA_land_cover/progs/land_use_6/cont_lu-30-2000.dat'
+a=intarr(170,131)
+readf,1,a
+close,1
+flip,a
+tv,a*1.6+16

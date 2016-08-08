@@ -1,0 +1,7 @@
+rct,'ct/prc'
+openr,1,'/sceos2_data1/data/land_use/sa/davet/6min/cont_lu-8-2000.dat'
+a=intarr(170,131)
+readf,1,a
+close,1
+flip,a
+tv,a*1.6+16

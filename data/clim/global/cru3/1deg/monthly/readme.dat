@@ -1,0 +1,9 @@
+MONTHLY
+upper left lat and long
+89.5 -179.5
+lat and lon resolution
+1.0 1.0
+number of pixels (north to south, east to west)
+180 360
+initial and final years of the dataset
+1901 2006

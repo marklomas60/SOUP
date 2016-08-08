@@ -1,0 +1,37 @@
+CONTINUOUS FTS
+centre of northernmost westernmost pixel (latitude longitude)
+89.75 -179.75
+latitude and longitude resolution
+0.5 0.5
+number of pixels (north to south, west to east)
+292 720
+years of landuse
+2000
+classes
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 21 22
+
+;;;
+Continuous cover map derived from GLC2000 (global release)
+
+1	Tree Cover, broadleaved, evergreen
+2	Tree Cover, broadleaved, deciduous, closed
+3	Tree Cover, broadleaved, deciduous, open
+4	Tree Cover, needle-leaved, evergreen
+5	Tree Cover, needle-leaved, deciduous
+6	Tree Cover, mixed leaf type
+7	Tree Cover, regularly flooded, fresh water
+8	Tree Cover, regularly flooded, saline water
+9	Mosaic: Tree Cover / Other natural vegetation
+10	Tree Cover, burnt
+11	Shrub Cover, closed-open, evergreen
+12	Shrub Cover, closed-open, deciduous
+13	Herbaceous Cover, closed-open
+14	Sparse herbaceous or sparse shrub cover
+15	Regularly flooded shrub and/or herbaceous cover
+16	Cultivated and managed areas
+17	Mosaic: Cropland / Tree Cover / Other natural vege
+18	Mosaic: Cropland / Shrub and/or grass cover
+19	Bare Areas
+20      Water Bodies
+21	Snow and Ice
+22	Artificial surfaces and associated areas

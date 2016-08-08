@@ -1,0 +1,21 @@
+Hi mark,
+
+Had to redo the data... :(
+
+Columns in tab limited format ... no missing values but some grid cells 
+(I think 4 or 5) did not have any data?!
+
+i think the data are easy to understand, but please note that 'Country' 
+is not important and 'Coutnry_Count' is the number of 1km grid cells 
+used for the average; car is the %org.C in each layer. Also '30' 
+indicates 0-30 cm soil depth and '1m' indicates 0-100cm soil depth. So 
+we can do it for two runs.
+
+Hope this makes sense and the grid is OK and in the correct place!!!
+Thanks,
+Andreas
+
+Lat Long Id Country_Avg Country_Cnt Bulkd30_Avg Bulkd1m_Avg 
+Car30c_Avg Car1m_Avg Clay30_Avg Sand30_Avg Silt30_Avg Clay1m_Avg 
+Sand1m_Avg Silt1m_Avg
+-- 
