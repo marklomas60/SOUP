@@ -154,7 +154,7 @@ do site=1,sites
   call READ_SOIL(sttxdp,lat,lon,soil_chr,soil_chr2,du,l_soil)
 
 !----------------------------------------------------------------------!
-! Read in soil parameters.                                             !
+! Read in land use.                                                    !
 !----------------------------------------------------------------------!
   call READ_LANDUSE(stlu,ilanduse,yr0,yrf,du,nft,lat,lon,lutab,luse,&
  cluse,l_lu)
